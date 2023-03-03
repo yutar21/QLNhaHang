@@ -1,0 +1,67 @@
+.container{
+    margin: 80px 15% 200px;
+    position: fixed;
+    width: 70%;
+    height: 85%;
+    background-color: #328fa8;
+    border-radius: 10px;
+}
+
+
+.slibar_button{
+    margin-top: 1px; 
+    background-color: #fff;
+    margin-left: 86.5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 125px;
+    height: 30px;
+    background-color: #fff;
+    font-size: 20px;
+    outline: #ccc;
+    border-radius: 5px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+
+}
+
+.chart-container1{
+    grid-column-start: 1;
+    grid-column-end:   3;
+    background-color: #fff;
+    margin: 0 20px 20px;
+    border-radius: 8px;
+
+}
+
+.chart-container2{
+    margin-bottom: 20px;
+    background-color: #fff;
+    margin-left: 20px;
+    border-radius: 8px;
+}
+
+.chart-container3{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+p{
+    text-align: center;
+    margin: 5px auto;
+}
+#div2{
+    display: none;
+}
+
+#div3{
+    display: none;
+}
+
+

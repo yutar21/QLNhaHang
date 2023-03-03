@@ -1,0 +1,90 @@
+*{
+    
+    font-family: 'Roboto', sans-serif;
+}
+/* .container-home{
+    margin-top: 100px;
+} */
+
+.container-home{
+  margin-left: 9%;
+  margin-top: 100px;
+  width: 80%;
+  height: 600px;
+  padding: 1rem;
+  background-color: #328fa8;
+  border-radius: 10px;
+  position: fixed;
+}
+  #container_1{
+    width: 49%;
+    float: left;
+    background-color: #aab7cf;
+  }
+  #container_2{
+    width: 50%;
+    float: right;
+  }
+  
+.btn_ban{
+  width: 100px;
+  height: 100px;
+  padding: auto;
+  color: green;
+}
+  .btn_matrix{
+    font-size: 16px;
+    line-height: 24px;
+    width: 100%;
+  }
+  
+  .btn_menu {
+    width: 25%;
+  }
+  
+  /* css nền bàn */
+  .tab-content{
+    background-color: #c4cbd8;
+  }
+  
+  /* css nền menu */
+  .tab-pane fade{
+    background-color: #ced5e0;
+  }
+  /* css nền hóa đơn */
+  
+  .navbar {
+      background-color: rgb(184, 70, 70);
+      font-size: 1em;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: #ffffff;
+      padding: 20px 10px 20px 10px;
+      text-align: left;
+  }
+  
+  .navbar a {
+      text-decoration: none;
+      color: inherit;
+  }
+  
+table, th, td{
+  border-top:1px solid black;
+  border-bottom:1px solid black;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+th, td{
+    text-align:left;
+    padding:10px;
+}
+
+.save_del_pay {
+  border: 1px #328fa8;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+  background-color: #328fa8;
+  color: white;
+}

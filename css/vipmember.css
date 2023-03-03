@@ -1,0 +1,139 @@
+
+.contener_body{
+    margin: 100px 5% 0px;
+    color: #fff;
+    border-radius: 2px;
+    position: fixed;
+}
+
+
+.contener_middle{
+    height:600px;
+}
+
+.contener_middle_left{
+    float: left;
+    width: 30%;
+    height: 600px;
+    background-color: #328fa8;
+    border-radius: 3%;
+}
+.contener_add_member{
+    margin: 0 4%;
+}
+
+.contener_add_member h2{
+    text-align: center;
+    letter-spacing: .05em;
+    text-shadow: 2px 2px #0dcaf0
+}
+
+.input_KH{
+    width: 100%;
+    height: 7%;
+    border-radius: 5px;
+    border: none;
+}
+.input_button{
+    margin-top: 4%;
+    border-radius: 5px;
+    border:none;
+    width: 20%;
+    height: 5%;
+    float: right;
+    font-weight: 700;
+    background-color: violet;
+}
+
+.vipmember_image{
+    width: 100%;
+}
+
+.contener_middle_right{
+    float: right;
+    width: 65%;
+    height: 600px;
+    border-radius: 3%;
+    background-color: #328fa8;
+}
+
+.contener_middle_rtop{
+    height: 270px;
+    width: 100%;
+    display: flex;
+}
+
+.contener_rtop_rlist{
+    width: 35%;
+    height: 250px;
+    margin: 0 2%;
+}
+
+.contener_rtop_rlist{
+    float: left;
+    text-align: center;
+    letter-spacing: .05em;
+    text-shadow: 2px 2px #0dcaf0
+}
+
+.input_search{
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    border-radius: 5px;
+    border: none;
+}
+
+.search_button{
+    margin-top: 4%;
+    border-radius: 5px;
+    width: 25%;
+    height: 13%;
+    float: right;
+    background-color: violet;
+    border: none;
+    font-weight: 700;
+}
+
+.contener_rtop_image{
+    margin-left: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contener_middle_rbottom{
+    margin: 0 2%;
+    background-color: aliceblue;
+    max-height: 300px;
+    overflow: auto;
+}
+
+.contener_th{
+    text-align: center;
+    width: 10%;
+
+}
+
+ table{
+    border-radius: 2%;
+    width: 100%;
+    
+}
+
+table, th, td{
+    border: thin solid black;
+    border-collapse: collapse;
+}
+td{
+    padding: 5px 0px;
+}
+
+.contener_short {
+    text-align: center;
+    width: 6%;
+}
+
+.contener_short > button{
+    border: none;
+}

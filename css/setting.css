@@ -1,0 +1,179 @@
+.container{
+    margin: 80px 150px 0;
+    height: 85%;
+    width: 80%;
+    position: fixed;
+
+}
+
+.slibar{
+    width: 25%;
+    height: 100%;
+    background-color: #328fa8;
+    border-radius: 15px;
+    float: left;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    /* margin-bottom: 80px; */
+    padding-top: 50px;
+}
+
+.slibar_button{
+    height: 40px;
+    margin-left: 5% ;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.update_so_ban{
+    height: 40px;
+    margin-left: 5% ;
+    width: 90%;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.update_soban_input{
+    height: 100%;
+    width: 70%;
+    border: none;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.update_soban_button{
+    width: 30%;
+    height: 100%;
+    background-color: #ccc;
+    border: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.slibar span{
+    font-size: 20px;
+}
+
+.slibar img{
+    margin-left: 20%;
+    margin-top: 50px;
+}
+
+.table{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: #328fa8;
+    border-radius: 15px;
+}
+table{
+    border:3px solid #000;
+    border-collapse: collapse;
+}
+
+th, td{
+    border:1px solid #000;
+    background-color: #fff;
+}
+
+tr{
+    height: 30px;
+}
+
+th{
+    font-size: 22px;
+}
+td{
+    font-size: 20px;
+    text-align: center;
+}
+
+#table_edit_monan{
+    width: 50%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+#mon_phu, #mon_chinh, #hoa_qua, #do_uong{
+    width: 80%;
+    max-height: 50%;
+    margin: 10% 10% 0;
+} 
+
+table input{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+/* #mon_phu{
+    display: none;
+} */
+#mon_chinh{
+    display: none;
+}
+
+#do_uong{
+    display: none;
+}
+
+#hoa_qua{
+    display: none;
+}
+
+#get_member{
+    display: none;
+}
+
+.list_item_admin label{
+    font-size: 24px;
+    color:#fff;
+    margin-left: 25%;
+    margin-bottom: 5%
+}
+
+.list_member_item{
+    margin-top: 8%;
+}
+
+.h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 80px;
+    padding-top: 50px;
+}
+.list_item_information{
+    margin-bottom: 15px;
+}
+
+.list_item_admin input{
+    font-size: 24px;
+    width: 220px;
+    border-radius: 6px;
+    border: none;
+    float: right;
+    margin-right: 28%;
+}
+
+.button_save_information{
+    background-color: violet;
+    border: none;
+    margin-left: 65%;
+    width: 60px;
+    height: 30px;
+    border-radius: 6px;
+    font-size: 20px;
+}
